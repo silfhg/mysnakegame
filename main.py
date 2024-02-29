@@ -9,8 +9,8 @@ pygame.init()
 pygame.mixer.music.load('music.mp3')
 pygame.mixer.music.play(-1)
 
-screen_width = 600
-screen_height = 600
+screen_width = 500
+screen_height = 500
 screen = pygame.display.set_mode((screen_width, screen_height))
 
 menu = pygame_menu.Menu('go to play', 500, 500,
